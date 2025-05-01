@@ -80,11 +80,11 @@ let start = Math.round(Math.random() * (10 - 1) + 1);
 
 
 for(let i=start; i<=t;i++){
-    if(i % 3 == 0){
-        console.log("{fizzDivisor}");
+    if(i % fizzDivisor == 0){
+        console.log("FIZZ");
     }
-     else if(i % 5 == 0){
-        console.log("{buzzDivisor}");
+     else if(i % buzzDivisor == 0){
+        console.log("BUZZ");
     }
     else if(i % 3 == 0 && i % 5 == 0){
         console.log("FIZZBUZZ");
