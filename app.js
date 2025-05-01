@@ -3,7 +3,7 @@ console.log("Hello World!\n==========\n");
 // Exercise 1 Section
 console.log("EXERCISE 1:\n==========\n");
 
-for(let i=1; i>=100;i++){
+for(let i=1; i<=100;i++){
     if(i % 2 !==0){
         console.log(i)
     }
@@ -14,7 +14,7 @@ for(let i=1; i>=100;i++){
 // Exercise 2 Section
 console.log("EXERCISE 2:\n==========\n");
 
-for(let i=1; i>=100;i++){
+for(let i=1; i<=100;i++){
     if(i % 3 == 0){
         console.log("FIZZ");
     }
@@ -79,7 +79,7 @@ let t = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 
 
-for(let i=`start`; i>=t;i++){
+for(let i=`start`; i<=t;i++){
     if(i % 3 == 0){
         console.log({fizzDivisor});
     }
