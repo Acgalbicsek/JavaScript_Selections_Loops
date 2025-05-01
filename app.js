@@ -39,7 +39,7 @@ while(j<= 100){
 
 console.log("EXERCISE 3, PART 2: \n===========\n");
 
-let a = 1;
+let a = 0;
 do{
     if(a % 3 == 0){
         console.log("FIZZ");
@@ -79,12 +79,12 @@ let t = Math.round(Math.random() * (1000 - 1) + 1);
 let start = Math.round(Math.random() * (10 - 1) + 1);
 
 
-for(let i=`start`; i<=t;i++){
+for(let i=start; i<=t;i++){
     if(i % 3 == 0){
-        console.log({fizzDivisor});
+        console.log("{fizzDivisor}");
     }
      else if(i % 5 == 0){
-        console.log({buzzDivisor});
+        console.log("{buzzDivisor}");
     }
     else if(i % 3 == 0 && i % 5 == 0){
         console.log("FIZZBUZZ");
